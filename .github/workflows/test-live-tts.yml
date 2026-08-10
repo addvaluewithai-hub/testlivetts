@@ -1,0 +1,43 @@
+name: Test Gemini 3.1 Flash Live TTS
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate audio with Gemini Live
+        run: python live_tts_test.py
+
+      - name: Upload test outputs
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: gemini-live-tts-test
+          path: |
+            output.wav
+            output_transcription.txt
+            run_summary.json
+          if-no-files-found: warn
+          retention-days: 7
