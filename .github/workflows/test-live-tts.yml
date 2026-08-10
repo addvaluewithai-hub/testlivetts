@@ -3,6 +3,8 @@ name: Test Gemini 3.1 Flash Live TTS
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
