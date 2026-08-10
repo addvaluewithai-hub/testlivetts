@@ -1,0 +1,35 @@
+[WARM] أهلًا بيك في أول درس.
+
+تخيّل إنك قابلت شخص جديد، وبعد السلام سألك:
+
+[FRIENDLY] \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="tɛl mi əˈbaʊt jɚˈsɛlf">Tell me about yourself.\</phoneme>\</lang>
+
+وفجأة حسّيت إنك مطالب تحكي قصة حياتك من أول يوم في الحضانة لحد النهاردة.
+
+[AMUSED] اطمن. هو مش طالب فيلم وثائقي عن حياتك.
+
+كل اللي محتاجه أربع أو خمس جمل قصيرة تساعده يعرفك، وتفتح بينكم محادثة.
+
+اسمع النموذج ده أولًا.
+
+[CLEAR, SLIGHTLY SLOWER] \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="haɪ | aɪm ˈmaɪə | aɪm frəm ˈdʒɔɹdən | aɪ lɪv ɪn əˈmɑːn | aɪm ə dɪˈzaɪnɚ | aɪ laɪk fəˈtɑgɹəfi">Hi, I'm Maya. I'm from Jordan. I live in Amman. I'm a designer. I like photography.\</phoneme>\</lang>
+
+بس كده.
+
+مايا قالت اسمها، بلدها، مكان سكنها، شغلها، وحاجة بتحبها.
+
+تعال نفهم كل جزء.
+
+أول حاجة، التحية والاسم.
+
+[CLEARLY] \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="haɪ | aɪm ˈmaɪə">Hi, I'm Maya.\</phoneme>\</lang>
+
+كلمة \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="aɪm">I'm\</phoneme>\</lang> هي الصورة المختصرة والطبيعية من:
+
+[CLEARLY] \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="aɪ æm">I am.\</phoneme>\</lang>
+
+لكن في المحادثات العادية، الأغلب إنك هتسمع وتستخدم:
+
+[CLEARLY] \<lang xml\:lang="en-US">\<phoneme alphabet="ipa" ph="aɪm">I'm.\</phoneme>\</lang>
+
+قولها كوحدة واحدة خفيفة. ما تفصلش الكلمتين عن بعض.
